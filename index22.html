@@ -9,16 +9,16 @@
 <body>
     <div class="page-container"></div>
   <div class="left-side">
-    <input id="text" autofocus>
+    <input id="text2" autofocus>
   </div>
   <div class="right-side">
-    <p>Hello. What's your name.</p>
+    <p>Hello . What's your name.</p>
   </div>
    <script>
-        document.getElementById('text').addEventListener('keydown', function(event) {
+        document.getElementById('text2').addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
-                localStorage.setItem('userName', document.getElementById('text').value);
-                location.href = 'index22.html'
+                localStorage.setItem('userAge', document.getElementById('text2').value);
+                location.href = 'index33.html'
             }
         })
     </script>

@@ -1,0 +1,22 @@
+/* Container that holds both sides */
+.page-container {
+  display: flex;
+  height: 100vh; /* full viewport height */
+}
+
+/* Style for each side */
+.left-side {
+  flex: 1;
+  background-color: blueviolet; /* replace with desired color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  flex: 1;
+  background-color: rebeccapurple; /* replace with desired color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
