@@ -11,16 +11,23 @@
   <div class="left-side">
     <input id="text" autofocus>
   </div>
-  <div class="right-side">
-    <p>Hello. What's your name.</p>
-  </div>
+  <div class="right-side"></div>
    <script>
+    storedName = localStorage.getItem('text')
+    if (!storedName) {
+        
+    }
         document.getElementById('text').addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
+                if (text === )
                 localStorage.setItem('userName', document.getElementById('text').value);
                 location.href = 'index22.html'
             }
+            if (text === 'clear') {
+                
+            }
         })
+        
     </script>
 </body>
 </html>
